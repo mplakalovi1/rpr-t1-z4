@@ -7,34 +7,20 @@ import static org.junit.jupiter.api.Assertions.*;
 class PredmetTest {
 
     @Test
-    void upisi() {
-    }
-
-    @Test
-    void ispisi() {
-    }
-
-    @Test
     void getNazivPredmeta() {
+        Predmet Im2=new Predmet("Inzenjerska matematika 2",686769,500);
+        assertEquals(Im2.getNazivPredmeta(),"Inzenjerska matematika 2");
     }
 
     @Test
     void getSifraPredmeta() {
+        Predmet Im2=new Predmet("Inzenjerska matematika 2",686769,500);
+        assertEquals(Im2.getSifraPredmeta(),686769);
     }
 
     @Test
     void getMaxBrojStudenata() {
-    }
-
-    @Test
-    void setNazivPredmeta() {
-    }
-
-    @Test
-    void setSifraPredmeta() {
-    }
-
-    @Test
-    void ispisSpiskaStudenata() {
+        Predmet Im2=new Predmet("Inzenjerska matematika 2",686769,500);
+        assertEquals(Im2.getMaxBrojStudenata(),500);
     }
 }
