@@ -10,5 +10,6 @@ IM2.ispisSpiskaStudenata();
 matejPlakalovic.ispisStudenta();
 IM2.ispisi(matejPlakalovic);
 IM2.ispisSpiskaStudenata();
+Student anjaPlakalovic=new Student("Anja","Plakalovic",17810);
     }
 }
