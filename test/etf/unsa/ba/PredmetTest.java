@@ -8,19 +8,19 @@ class PredmetTest {
 
     @Test
     void getNazivPredmeta() {
-        Predmet Im2=new Predmet("Inzenjerska matematika 2",686769,500);
-        assertEquals(Im2.getNazivPredmeta(),"Inzenjerska matematika 2");
+        Predmet Im2 = new Predmet("Inzenjerska matematika 2", 686769, 500);
+        assertEquals(Im2.getNazivPredmeta(), "Inzenjerska matematika 2");
     }
 
     @Test
     void getSifraPredmeta() {
-        Predmet Im2=new Predmet("Inzenjerska matematika 2",686769,500);
-        assertEquals(Im2.getSifraPredmeta(),686769);
+        Predmet Im2 = new Predmet("Inzenjerska matematika 2", 686769, 500);
+        assertEquals(Im2.getSifraPredmeta(), 686769);
     }
 
     @Test
     void getMaxBrojStudenata() {
-        Predmet Im2=new Predmet("Inzenjerska matematika 2",686769,500);
-        assertEquals(Im2.getMaxBrojStudenata(),500);
+        Predmet Im2 = new Predmet("Inzenjerska matematika 2", 686769, 500);
+        assertEquals(Im2.getMaxBrojStudenata(), 500);
     }
 }

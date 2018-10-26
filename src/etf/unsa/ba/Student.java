@@ -5,8 +5,10 @@ public class Student {
     private String prezimeStudenta;
     private int brojIndexa;
 
-    public Student(String imeStudenta,String prezimeStudenta,int brojIndexa){
-        this.imeStudenta=imeStudenta; this.prezimeStudenta=prezimeStudenta; this.brojIndexa=brojIndexa;
+    public Student(String imeStudenta, String prezimeStudenta, int brojIndexa) {
+        this.imeStudenta = imeStudenta;
+        this.prezimeStudenta = prezimeStudenta;
+        this.brojIndexa = brojIndexa;
     }
 
     public int getBrojIndexa() {
@@ -33,12 +35,12 @@ public class Student {
         this.prezimeStudenta = prezimeStudenta;
     }
 
-   public void ispisStudenta(){
-System.out.println(prezimeStudenta + " " + imeStudenta + " (" + brojIndexa + ")");
-   }
+    public void ispisStudenta() {
+        System.out.println(prezimeStudenta + " " + imeStudenta + " (" + brojIndexa + ")");
+    }
 
-   public String toString( ){
+    public String toString() {
         return (this.getPrezimeStudenta() + " " + this.getImeStudenta() + " (" + this.getBrojIndexa() + ")");
-   }
+    }
 
 }
