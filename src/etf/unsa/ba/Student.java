@@ -36,4 +36,9 @@ public class Student {
    public void ispisStudenta(){
 System.out.println(prezimeStudenta + " " + imeStudenta + " (" + brojIndexa + ")");
    }
+
+   public String toString( ){
+        return (this.getPrezimeStudenta() + " " + this.getImeStudenta() + " (" + this.getBrojIndexa() + ")");
+   }
+
 }

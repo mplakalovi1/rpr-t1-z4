@@ -44,5 +44,11 @@ class StudentTest {
         assertEquals(nikoNikic.getPrezimeStudenta(),"Prikolica");
     }
 
+    @Test
+    void toStringic(){
+        Student nikoNikic=new Student("Niko","Nikic",17998);
+        assertEquals(nikoNikic.toString(),"Nikic Niko (17998)");
+    }
+
 
 }
