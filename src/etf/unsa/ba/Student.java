@@ -34,6 +34,6 @@ public class Student {
     }
 
    public void ispisStudenta(){
-System.out.println(prezimeStudenta+" "+imeStudenta+" ("+brojIndexa+")");
+System.out.println(prezimeStudenta + " " + imeStudenta + " (" + brojIndexa + ")");
    }
 }
