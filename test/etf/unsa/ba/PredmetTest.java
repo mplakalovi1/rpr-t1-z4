@@ -23,4 +23,14 @@ class PredmetTest {
         Predmet Im2 = new Predmet("Inzenjerska matematika 2", 686769, 500);
         assertEquals(Im2.getMaxBrojStudenata(), 500);
     }
+     @Test
+    void testSettera(){
+        Predmet neki=new Predmet ("Neki predmet na etfu",1000,200);
+        neki.setNazivPredmeta("Teorija Signala (TS)");
+        neki.setSifraPredmeta(2345);
+        assertAll("testovi settera",
+                () -> assertEquals(neki.getNazivPredmeta(),"Teorija Signala (TS)"),
+                () ->  assertEquals(neki.getSifraPredmeta(),2345));
+
+    }
 }
